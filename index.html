@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Test cases</title>
+		<meta charset="UTF-8">
+		<link
+			href="style.css"
+			rel="stylesheet"
+		>
+	</head>
+	<body>
+		<header>
+			<h1>
+				Test driven development
+			</h1>
+		</header>
+		
+		<h2>
+			Lo que hacíamos anteriormente con sistemas ya existentes:
+		</h2>
+
+		<ol>
+			<li>
+				Realizar Test Cases a cada archivo
+			</li>
+			<li>
+				Probar todos los errores posibles haciendo muchisimos test cases de modo que hagamos lo del 3, que es:
+			</li>
+			<li>
+				Usar los métodos caja roja o negra - Si se conoce mejor el código, podemos hacer pruebas unitarias más específicas (ciertos tipos de funciones, etc)
+			</li>
+		</ol>
+		
+		<div class="los_recuadros_de_consulta">
+            
+            <div class="recuadro1">
+				Test First
+			</div>
+			
+            <div class="recuadro2">
+				Crystal Clear
+			</div>
+			
+            <div class="recuadro3">
+				Huge Projects
+			</div>
+			
+            <div class="recuadro4">
+				Code Coverage
+			</div>
+        
+        </div>
+		
+		<br><br><br>
+		
+		<div class="principal_idea">
+			<h2>
+				La intención es en realidad hacer modelos de programación diferentes BASADOS en hacer pruebas unitarias.
+			</h2>
+			<br>
+			<p>
+				Primero hay que hacer las pruebas unitarias antes de hacer nada de código.
+				Esto se basa en hacer que las pruebas unitarias fallen, haciendo un checklist
+			</p>
+		</div>
+
+		<div class="ideas">
+
+			<div class="idea_1">
+				
+				<div class="n_idea1_imagen"> 
+					<img src="checklist.jpg">
+				</div>
+				
+				<div class="n_idea1_texto">
+					
+					<h2>
+						Pruebas, antes que nada
+					</h2><br>
+					
+					<p>
+						Por ejemplo, si por protocolo te piden crear una clase en cierta carpeta, primero
+						corres pruebas unitarias para ver si la carpeta existe para empezar.
+					</p><br>
+					
+					<p>
+						De este modo se va guiando al programa para que siga cierto tipo de acciones y 
+						protocolos.
+					</p><br>
+					
+					<p>
+						Y así nos vamos yendo con los demás protocolos que deseemos que nuestro sistema cuente,
+						como definir cuántos métodos queremos, qué tipo de valor de retorno queremos que devuelva. etc.
+					</p><br>
+					
+					<p>
+						Así pues, las pruebas unitarias son algo que se va automatizando a lo largo del desarrollo, algo que ya está
+						built-in en las features, no después de haberlas creado.
+					</p>
+					
+				</div>
+				
+			</div>
+			
+			<div class="idea_2">
+				
+				<div class="n_idea2_imagen"> 
+					<img src="Deslinde.jpg">
+				</div>
+				
+				<div class="n_idea2_texto">
+					
+					<h2>Las Ventajas</h2><br>
+					
+					<p>
+						Las ventajas que esto conlleva es que a la hora de implementar nuevas features
+						una vez que el sistema esté en una fase completa no sea necesario investigar o analizar de más
+						el código.
+					</p><br>
+					
+					<p>
+						Podemos primero definir la estructura a partir de los user stories mientras hacemos los test cases
+						Así pues el desarrollador tiene en qué trabajar y al mismo tiempo resolver los test cases
+					</p><br>
+					
+					<p>
+						Los Test cases en promedio agregan 10% de tiempo al desarrollo, lo cual puede ser algo pesado
+						para trabajos con Deadlines cortos, pero vale la pena al mediano y largo plazo
+					</p><br>
+					
+					<p>
+						Supogamos que nos entregan un sistema para que nosotros como desarrolladores
+						le implementemos una nueva feature. Lo primero que haremos será correr las pruebas
+						unitarias, y una vez que veamos que todas son exitosas, tendremos la certeza de que
+						nos entregaron el código en un estado sólido, y al implementar nuestra feature
+						y entregar el código al cliente, el tiempo que nos tomará asegurarnos de que 
+						todo está como nos lo dieron Más los features que implementamos será mínimo.
+					</p>
+					
+				</div>
+				
+			</div>
+		
+			<div class="idea_1">
+				
+				<div class="n_idea1_imagen"> 
+					<img src="Preguntas.jpeg">
+				</div>
+				
+				<div class="n_idea1_texto">
+					
+					<h2>
+						¿Cómo sabes si necesitas o no pruebas unitarias en tu código?
+					</h2><br>
+					
+					<p>
+						Digamos que no sabes a qué se refiere el valor de una variable, el valor que retorna
+						una función, o un tipo de método. Normalmente harías un printr o verías en los logs
+						el resultado. En lugar de eso, es mejor hacer una prueba unitaria, y este es el principal
+						indicador de que tu sistema necesita pruebass unitarias.
+					</p>
+					
+				</div>
+				
+			</div>
+			
+			<div class="idea_2">
+				
+				<div class="n_idea2_imagen"> 
+					<img src="Responsabilidad.jpg">
+				</div>
+				
+				<div class="n_idea2_texto">
+					
+					<h2>
+						¿Responsabilidad?, ¿Error de Comunicación?
+					</h2><br>
+					
+					<p>
+						Una de las ventajas de las pruebas unitarias es el deslinde de responsabilidad.
+						Imagina que tu cliente o líder de proyecto te dice que lo que entregaste no fue lo que
+						pidió. Y tu como desarrollador implementaste todo de acuerdo a los user stories
+						y les realizaste las pruebas unitarias, es entonces que el problema se transparenta.
+					</p>
+					
+				</div>
+				
+			</div>
+			
+			<div class="idea_1">
+				
+				<div class="n_idea1_imagen"> 
+					<img src="Test_cases.jpg">
+				</div>
+				
+				<div class="n_idea1_texto">
+					
+					<h2>
+						Sí, sí que se puede
+					</h2><br>
+					
+					<p>
+						Las pruebas unitarias se pueden también aplicar a interfaces de usuario.
+					</p>
+					
+				</div>
+				
+			</div>
+			
+			<div class="idea_2">
+				
+				<div class="n_idea2_imagen"> 
+					<img src="Code_coverage.png">
+				</div>
+				
+				<div class="n_idea2_texto">
+					
+					<h2>
+						Tipos de reporte
+					</h2><br>
+					
+					<p>
+						Code coverage corre varias pruebas unitarias y enseña una gráfica con las pruebas
+						unitarias que fueron success y las que arrojaron error. Y así se puede detectar con presición
+						el porcentaje de funciones con pruebas unitarias aplicadas. Lo ideal es tener un 100% , pero
+						está bien si tenemos un 80% o 90%.
+					</p>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<footer>
+			Me dan calambres
+		</footer>
+	</body>
+</html>

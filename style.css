@@ -1,0 +1,124 @@
+*{
+	margin: 0px;
+}
+
+header {
+	background-color: black;
+	color: white;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+footer {
+	background-color: gray;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+ol {
+	display: inline-block;
+} 
+
+img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.principal_idea { 
+    background-color: white;
+    font-size: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+.los_recuadros_de_consulta {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin: 5px;
+	margin-top: 10px;
+	max-height: 400px;
+    min-height: 400px;
+}
+
+div[class^='recuadro'] {
+	background-color: #404040;
+	background-size: cover;
+    color: white;
+    text-align: center;
+    text-shadow: grey 1px 0 7px;
+
+}
+
+.recuadro1 {
+	background-image: url(Analisis.jpg);
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+	padding: 200px;
+}
+
+.recuadro2 {
+	background-image: url(Claridad.jpg);
+    grid-column: 2/ 3;
+    grid-row: 1 / 3;
+    padding: 200px;
+}
+
+.recuadro3 {
+	background-image: url(Proiectos.jpg);
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    padding: 100px;  
+}
+
+.recuadro4 {
+	background-image: url(Codecoverage.png);
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    padding: 100px;  
+}
+
+div[class^='idea_'] {
+	display: grid;
+	height: 500px;
+	grid-template-columns: repeat(16,1fr);
+    grid-template-rows: 1fr 3fr 1fr;
+    margin-top: 10px;
+	width: 100%;
+}
+
+div[class$='_1'] {
+	background-color: whitesmoke;
+	color: black;
+}
+
+div[class^='n_'] {
+	grid-row: 2/3;
+}
+
+.n_idea1_imagen{
+    grid-column: 2/8;
+}
+
+.n_idea1_texto{
+	font-size: 21px;
+    grid-column: 9/16;
+}
+
+div[class$='_2'] {
+	background-color: black;
+	color: white;
+}
+
+.n_idea2_imagen{
+    grid-column: 10/16;
+}
+
+.n_idea2_texto{
+    grid-column: 2/9;
+    font-size: 21px;
+}
